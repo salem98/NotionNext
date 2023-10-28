@@ -13,9 +13,9 @@ import WebWhiz from './Webwhiz'
 // import { StarrySky } from '@/components/StarrySky'
 // import { Analytics } from '@vercel/analytics/react'
 
+
 const TwikooCommentCounter = dynamic(() => import('@/components/TwikooCommentCounter'), { ssr: false })
 const DebugPanel = dynamic(() => import('@/components/DebugPanel'), { ssr: false })
-//const ThemeSwitch = dynamic(() => import('@/components/ThemeSwitch'), { ssr: false })
 const Fireworks = dynamic(() => import('@/components/Fireworks'), { ssr: false })
 const Nest = dynamic(() => import('@/components/Nest'), { ssr: false })
 const FlutteringRibbon = dynamic(() => import('@/components/FlutteringRibbon'), { ssr: false })
