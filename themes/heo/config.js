@@ -5,7 +5,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: 'Nhận mentor theo tháng!', url: 'https://nathanpham.dev },
+    { title: 'Nhận mentor theo tháng!', url: 'https://nathanpham.dev'},
     { title: 'Tham gia nhóm Telegram DevOps Việt Nam', url: 'https://nathanpham.dev' }
   ],
 
