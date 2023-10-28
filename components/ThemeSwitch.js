@@ -32,9 +32,9 @@ const ThemeSwitch = () => {
                     <DarkModeButton className='mr-2' />
                     <div className='w-0 group-hover:w-20 transition-all duration-200 overflow-hidden'>
                         <select value={theme} onChange={onSelectChange} name="themes" className='appearance-none outline-none dark:text-white bg-gray-50 dark:bg-black uppercase cursor-pointer'>
-                            {THEMES?.map(t => {
+                            {/* {THEMES?.map(t => {
                               return <option key={t} value={t}>{t}</option>
-                            })}
+                            })} */}
                         </select>
                     </div>
                     <i className="fa-solid fa-palette pl-2"></i>
