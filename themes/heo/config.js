@@ -19,7 +19,7 @@ const CONFIG = {
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: 'DevOps', url: '/tag/devops' },
-  HERO_CATEGORY_2: { title: 'Popular', url: '/tag/popular' },
+  HERO_CATEGORY_2: { title: 'ERP', url: '/tag/erp' },
   HERO_CATEGORY_3: { title: 'Tutorial', url: '/tag/tutorial' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
