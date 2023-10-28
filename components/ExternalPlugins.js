@@ -15,7 +15,7 @@ import WebWhiz from './Webwhiz'
 
 const TwikooCommentCounter = dynamic(() => import('@/components/TwikooCommentCounter'), { ssr: false })
 const DebugPanel = dynamic(() => import('@/components/DebugPanel'), { ssr: false })
-const ThemeSwitch = dynamic(() => import('@/components/ThemeSwitch'), { ssr: false })
+//const ThemeSwitch = dynamic(() => import('@/components/ThemeSwitch'), { ssr: false })
 const Fireworks = dynamic(() => import('@/components/Fireworks'), { ssr: false })
 const Nest = dynamic(() => import('@/components/Nest'), { ssr: false })
 const FlutteringRibbon = dynamic(() => import('@/components/FlutteringRibbon'), { ssr: false })
@@ -35,12 +35,12 @@ const DisableCopy = dynamic(() => import('@/components/DisableCopy'), { ssr: fal
 const AdBlockDetect = dynamic(() => import('@/components/AdBlockDetect'), { ssr: false })
 /**
  * 各种第三方组件
+ * {JSON.parse(BLOG.THEME_SWITCH) && <ThemeSwitch />}
  * @param {*} props
  * @returns
  */
 const ExternalPlugin = (props) => {
   return <>
-          {JSON.parse(BLOG.THEME_SWITCH) && <ThemeSwitch />}
           {JSON.parse(BLOG.DEBUG) && <DebugPanel />}
           {BLOG.ANALYTICS_ACKEE_TRACKER && <Ackee />}
           {BLOG.ANALYTICS_GOOGLE_ID && <Gtag />}
