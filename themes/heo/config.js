@@ -6,7 +6,7 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
     { title: 'Nhận mentor theo tháng!', url: 'https://nathanpham.dev'},
-    { title: 'Tham gia nhóm Telegram DevOps Việt Nam', url: 'https://nathanpham.dev' }
+    { title: 'Tham gia nhóm Telegram DevOps Việt Nam', url: 'https://nathanpham.dev'}
   ],
 
   // 英雄区(首页顶部大卡)
@@ -33,7 +33,7 @@ const CONFIG = {
     '🤝 DevOps Engineer',
     '🤖️ AI Engineer'
   ],
-  INFO_CARD_URL: '#', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'https://github.com/salem98', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
@@ -96,10 +96,10 @@ const CONFIG = {
   ],
 
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: '交流频道',
-  SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  SOCIAL_CARD_TITLE_3: '点击加入社群',
-  SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  SOCIAL_CARD_TITLE_1: 'Schedule a call!',
+  SOCIAL_CARD_TITLE_2: 'Đặt lịch nói chuyện với mình',
+  SOCIAL_CARD_TITLE_3: '30 minutes call',
+  SOCIAL_CARD_URL: 'https://calendly.com/nhanpham0311',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
