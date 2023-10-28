@@ -52,9 +52,9 @@ export default function Footer() {
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
                         <h6 className="text-gray-800 font-medium mb-2">产品</h6>
                         <ul className="text-sm">
-                            <li className="mb-2">
+                            {/* <li className="mb-2">
                                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">NotionNext</a>
-                            </li>
+                            </li> */}
                             <li className="mb-2">
                                 {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Vercel</a> */}
                             </li>

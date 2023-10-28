@@ -1,6 +1,6 @@
 ---
 name: Bug report （Bug反馈）
-about: 报告一个软件的BUG来让NotionNext变得更好
+about: Nathan Pham DevOps
 title: ''
 labels: bug
 assignees: tangly1024
