@@ -20,7 +20,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'NathanPham', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || 'DevOps Is My Life🍚', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://nathanpham.dev', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://lemdev.tech', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, Devops', // 网站关键词 英文逗号隔开
 
 

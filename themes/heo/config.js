@@ -5,14 +5,14 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: 'Nhận mentor theo tháng!', url: 'https://nathanpham.dev'},
-    { title: 'Tham gia nhóm Telegram DevOps Việt Nam', url: 'https://nathanpham.dev'}
+    { title: 'Nhận mentor theo tháng!', url: 'https://lemdev.tech'},
+    { title: 'Tham gia nhóm Telegram DevOps Việt Nam', url: 'https://lemdev.tech'}
   ],
 
   // 英雄区(首页顶部大卡)
   HERO_TITLE_1: 'Chia sẻ',
   HERO_TITLE_2: 'DevOps',
-  HERO_TITLE_3: 'nathanpham.dev',
+  HERO_TITLE_3: 'lemdev.tech',
   HERO_TITLE_4: 'Bài viết mới',
   HERO_TITLE_5: 'NotionNext4.0',
   HERO_TITLE_LINK: '#',
